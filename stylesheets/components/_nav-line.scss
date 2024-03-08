@@ -1,0 +1,13 @@
+.nav-line {
+    border-bottom: solid;
+    border-color: #F9C745;
+    margin-bottom: 20px;
+}
+
+@media(min-width: 992px){
+    .nav-line {
+        border-bottom: 0;
+        border-color: #F9C745;
+        margin-bottom: 0px;
+    }
+  }

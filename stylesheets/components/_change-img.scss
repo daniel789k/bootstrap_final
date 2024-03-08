@@ -1,0 +1,22 @@
+// .dog01:hover {
+//     content: url(/images/dog01-hover-1.png);
+// }
+
+// .dog02:hover {
+//     content: url(/images/dog01-hover.png);
+// }
+
+// .dog03:hover {
+//     content: url(/images/dog01-hover-2.png);
+// }
+
+.draw:hover {
+    content: url(/images/btn.png);
+}
+
+.appear {
+    opacity: 0;
+}
+.appear:hover {
+    opacity: 1;
+}

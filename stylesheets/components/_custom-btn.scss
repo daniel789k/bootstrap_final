@@ -1,0 +1,73 @@
+.custom-btn {
+    &.active{
+        color: #F9C745;
+        position: relative;
+        // padding-left: 25px;
+        // &::after {
+        //     content: "";
+        //     position: absolute;
+        //     transform: translate(-50%, -50%);
+        //     top: 50%;
+        //     left: 6px;
+        //     bottom: 0;
+        //     width: 12px;
+        //     height: 0px;
+        //     border: 1.5px solid #F9C745;
+        // }
+    }
+}
+
+.custom-btn:hover {
+    color: #F9C745;
+    position: relative;
+    // padding-left: 25px;
+    // &::after {
+    //     content: "";
+    //     position: absolute;
+    //     transform: translate(-50%, -50%);
+    //     top: 50%;
+    //     left: 6px;
+    //     bottom: 0;
+    //     width: 12px;
+    //     height: 0px;
+    //     border: 1.5px solid #F9C745;
+    // }
+}
+
+@media(min-width: 992px){
+    .custom-btn {
+        &.active{
+            color: #F9C745;
+            position: relative;
+            padding-left: 25px;
+            &::after {
+                content: "";
+                position: absolute;
+                transform: translate(-50%, -50%);
+                top: 50%;
+                left: 6px;
+                bottom: 0;
+                width: 12px;
+                height: 0px;
+                border: 1.5px solid #F9C745;
+            }
+        }
+    }
+
+    .custom-btn:hover {
+        color: #F9C745;
+        position: relative;
+        padding-left: 25px;
+        &::after {
+            content: "";
+            position: absolute;
+            transform: translate(-50%, -50%);
+            top: 50%;
+            left: 6px;
+            bottom: 0;
+            width: 12px;
+            height: 0px;
+            border: 1.5px solid #F9C745;
+        }
+    }
+  }
