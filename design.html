@@ -4,52 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./stylesheets/all.css">
-
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Noto+Sans:ital@0;1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: "Noto Sans", sans-serif;
-        }
-        .kalam-bold {
-            font-family: "Kalam", cursive;
-            font-weight: 700;
-            font-style: normal;
-        }
-        .kalam-regular {
-            font-family: "Kalam", cursive;
-            font-weight: 400;
-            font-style: normal;
-        }
-    </style>
+    <link rel="stylesheet" href="./stylesheets/all.css">
 </head>
-<body style="background-image: url(./images/lightpaperfibers.png);">
-    <nav class="navbar navbar-expand-lg navbar-light bg-white nav-line sticky-top">
+<body class="background-image">
+    <nav class="navbar navbar-expand-md navbar-light bg-white nav-line sticky-top text-nowrap">
         <div class="container">
           <a class="navbar-brand" href="./index.html">
-            <img src="./images/logo.png" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="./images/logo.png" alt="logo"><h1 class="d-none">撿到寶</h1></a>
+          <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item mx-3">
+            <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+              <li class="nav-item mx-2">
                 <a class="nav-link text-change-main text-main-dark" aria-current="page" href="./index.html">首頁</a>
               </li>
-              <li class="nav-item mx-3">
+              <li class="nav-item mx-2">
                 <a class="nav-link text-change-main text-main-dark" href="./service.html">服務介紹</a>
               </li>
-              <li class="nav-item mx-3">
+              <li class="nav-item mx-2">
                 <a class="nav-link text-change-main text-main" href="./design.html">設計作品</a>
               </li>
-              <li class="nav-item mx-3">
+              <li class="nav-item mx-2">
                 <a class="nav-link text-change-main text-main-dark" href="./adoption.html">領養專區</a>
               </li>
-              <li class="nav-item ps-3">
+              <li class="nav-item ps-2">
                 <a class="btn btn-main rounded-pill text-main-dark px-5 bg-shadow" href="./design_parchase.html">毛孩似顏繪</a>
               </li>
             </ul>
@@ -58,23 +43,23 @@
     </nav>
 
     <section class="px-5">
-        <img src="./images/title01.png" alt="" class="mx-auto d-block mb-3">
-        <div class="row row-cols-lg-2 row-cols-1 mb-5">
-            <div class="col-lg-3 col-12">
-                <h2 class="kalam-bold text-center text-lg-start mb-3">Designer</h2>
-                <ul class="list-unstyled d-flex flex-lg-column justify-content-around">
-                    <li class="border-0 bg-transparent ps-0 mb-lg-2"><p class="custom-btn d-inline kalam-regular active">All</p></li>
-                    <li class="border-0 bg-transparent ps-0 mb-lg-2"><p class="custom-btn d-inline kalam-regular">Meili</p></li>
-                    <li class="border-0 bg-transparent ps-0 mb-lg-2"><p class="custom-btn d-inline kalam-regular">Zoe</p></li>
-                    <li class="border-0 bg-transparent ps-0 mb-lg-2"><p class="custom-btn d-inline kalam-regular">Michael</p></li>
-                    <li class="border-0 bg-transparent ps-0 mb-lg-2"><p class="custom-btn d-inline kalam-regular">Birdy</p></li>
+        <img src="./images/title01.png" alt="近期作品" class="mx-auto d-block mb-3">
+        <div class="row row-cols-md-2 row-cols-1 mb-5">
+            <div class="col-md-3 col-12">
+                <h2 class="kalam-bold text-center text-md-start mb-3">Designer</h2>
+                <ul class="list-unstyled d-flex flex-md-column justify-content-around">
+                    <li class="border-0 bg-transparent ps-0 mb-md-2"><p class="custom-btn d-inline kalam-regular active">All</p></li>
+                    <li class="border-0 bg-transparent ps-0 mb-md-2"><p class="custom-btn d-inline kalam-regular">Meili</p></li>
+                    <li class="border-0 bg-transparent ps-0 mb-md-2"><p class="custom-btn d-inline kalam-regular">Zoe</p></li>
+                    <li class="border-0 bg-transparent ps-0 mb-md-2"><p class="custom-btn d-inline kalam-regular">Michael</p></li>
+                    <li class="border-0 bg-transparent ps-0 mb-md-2"><p class="custom-btn d-inline kalam-regular">Birdy</p></li>
                 </ul>
             </div>
-            <div class="col-lg-9 col-12">
-                <div class="row row-cols-lg-3 row-cols-2 gy-4">
+            <div class="col-md-9 col-12">
+                <div class="row row-cols-md-3 row-cols-2 gy-4">
                     <div class="col">
                         <div class="card border-0 text-white">
-                            <img src="./images/dog05.png" alt="" class="img-fluid rounded-4">
+                            <img src="./images/dog05.png" alt="5號狗" class="img-fluid rounded-4">
                             <div class="card-img-overlay rounded-4 text-transparent bg-dark-gradient-1 appear:hover d-flex flex-column justify-content-end pb-1">
                               <p class="card-text kalam-regular mb-1">designer</p>
                               <p class="card-text kalam-bold fs-4">Meili</p>
@@ -83,7 +68,7 @@
                     </div>
                     <div class="col">
                         <div class="card border-0 text-white">
-                            <img src="./images/07.png" alt="" class="img-fluid rounded-4">
+                            <img src="./images/07.png" alt="7號狗" class="img-fluid rounded-4">
                             <div class="card-img-overlay rounded-4 text-transparent bg-dark-gradient appear d-flex flex-column justify-content-end pb-1">
                               <p class="card-text kalam-regular mb-1">designer</p>
                               <p class="card-text kalam-bold fs-4">Meili</p>
@@ -92,7 +77,7 @@
                     </div>
                     <div class="col">
                         <div class="card border-0 text-white">
-                            <img src="./images/06.png" alt="" class="img-fluid rounded-4">
+                            <img src="./images/06.png" alt="6號狗" class="img-fluid rounded-4">
                             <div class="card-img-overlay rounded-4 text-transparent bg-dark-gradient appear d-flex flex-column justify-content-end pb-1">
                               <p class="card-text kalam-regular mb-1">designer</p>
                               <p class="card-text kalam-bold fs-4">Meili</p>
@@ -101,7 +86,7 @@
                     </div>
                     <div class="col">
                         <div class="card border-0 text-white">
-                            <img src="./images/Michael.png" alt="" class="img-fluid rounded-4">
+                            <img src="./images/Michael.png" alt="Michael狗" class="img-fluid rounded-4">
                             <div class="card-img-overlay rounded-4 text-transparent bg-dark-gradient appear d-flex flex-column justify-content-end pb-1">
                               <p class="card-text kalam-regular mb-1">designer</p>
                               <p class="card-text kalam-bold fs-4">Meili</p>
@@ -114,13 +99,13 @@
     </section>
 
     <section class="border-top border-main p-5 border-2 bg-white">
-        <div class="row row-cols-lg-2 row-cols-1 g-5">
+        <div class="row row-cols-md-2 row-cols-1 g-5">
             <div class="col">
-                <div class="row row-cols-lg-2 row-cols-1 text-center g-1">
-                    <div class="col mb-4 mb-lg-0">
-                        <img src="./images/link01.png" alt="">
+                <div class="row row-cols-md-2 row-cols-1 text-center g-1">
+                    <div class="col mb-4 mb-md-0">
+                        <img class="img-fluid" src="./images/link01.png" alt="握手底圖">
                     </div>
-                    <div class="col text-lg-start">
+                    <div class="col text-md-start">
                         <p class="h4">加入奴才團隊</p>
                         <p>我也會畫畫，希望能盡一份心力！</p>
                         <a href="./design_parchase.html" class="btn btn-outline-dark rounded-pill py-2 bg-transparent text-dark bg-change-main" style="width: 176px;">聯絡我們</a>
@@ -128,11 +113,11 @@
                 </div>
             </div>
             <div class="col">
-                <div class="row row-cols-lg-2 row-cols-1 text-center g-1">
-                    <div class="col mb-4 mb-lg-0">
-                        <img src="./images/link02.png" alt="">
+                <div class="row row-cols-md-2 row-cols-1 text-center g-1">
+                    <div class="col mb-4 mb-md-0">
+                        <img class="img-fluid" src="./images/link02.png" alt="摸狗底圖">
                     </div>
-                    <div class="col text-lg-start">
+                    <div class="col text-md-start">
                         <p class="h4">加入奴才團隊</p>
                         <p>我也會畫畫，希望能盡一份心力！</p>
                         <a href="./adoption.html" class="btn btn-outline-dark rounded-pill py-2 bg-transparent text-dark bg-change-main" style="width: 176px;">領養專區</a>

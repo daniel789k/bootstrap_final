@@ -4,56 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./stylesheets/all.css">
-
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Noto+Sans:ital@0;1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: "Noto Sans", sans-serif;
-        }
-        .kalam-bold {
-            font-family: "Kalam", cursive;
-            font-weight: 700;
-            font-style: normal;
-        }
-        .kalam-regular {
-            font-family: "Kalam", cursive;
-            font-weight: 400;
-            font-style: normal;
-        }
-    </style>
+    <link rel="stylesheet" href="./stylesheets/all.css">
 </head>
-<body style="background-image: url(./images/lightpaperfibers.png);">
+<body class="background-image">
     <a href="./design_parchase.html">
-        <img src="./images/btn2.png" alt="" class="fixed-bottom ms-auto pe-5 d-lg-block d-none">
-        <img src="./images/btn.png" alt="" class="fixed-bottom ms-auto pe-5 d-lg-block d-none appear">
+        <img src="./images/btn2.png" alt="首頁右下畫我2" class="fixed-bottom ms-auto pe-5 d-md-block d-none">
+        <img src="./images/btn.png" alt="首頁右下畫我1" class="fixed-bottom ms-auto pe-5 d-md-block d-none appear">
     </a>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white nav-line sticky-top">
+    <nav class="navbar navbar-expand-md navbar-light bg-white nav-line sticky-top text-nowrap">
         <div class="container">
           <a class="navbar-brand" href="./index.html">
-            <img src="./images/logo.png" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="./images/logo.png" alt="logo"><h1 class="d-none">撿到寶</h1></a>
+          <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item mx-3">
+            <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+              <li class="nav-item mx-2">
                 <a class="nav-link text-change-main text-main" aria-current="page" href="./index.html">首頁</a>
               </li>
-              <li class="nav-item mx-3">
+              <li class="nav-item mx-2">
                 <a class="nav-link text-change-main text-main-dark" href="./service.html">服務介紹</a>
               </li>
-              <li class="nav-item mx-3">
+              <li class="nav-item mx-2">
                 <a class="nav-link text-change-main text-main-dark" href="./design.html">設計作品</a>
               </li>
-              <li class="nav-item mx-3">
+              <li class="nav-item mx-2">
                 <a class="nav-link text-change-main text-main-dark" href="./adoption.html">領養專區</a>
               </li>
-              <li class="nav-item ps-3">
+              <li class="nav-item ps-2">
                 <a class="btn btn-main rounded-pill text-main-dark px-5 bg-shadow" href="./design_parchase.html">毛孩似顏繪</a>
               </li>
             </ul>
@@ -61,17 +46,18 @@
         </div>
     </nav>
 
-    <header class="header">
-        <img src="./images/home.png" alt="" class="img-fluid d-none d-lg-block">
-        <img src="./images/home_mobile.png" alt="" class="img-fluid d-block d-lg-none mx-auto">
+    <header class="header position-relative">
+        <img src="./images/home.png" alt="首頁大圖" class="img-fluid d-none d-md-block">
+        <h1 class="kalam-bold text-secondary border-white position-absolute top-50 start-50 translate-middle d-none d-md-block" style="-webkit-text-stroke: 1.5px white;">Full of fur,Full of love</h1>
+        <img src="./images/home_mobile.png" alt="手機板首頁大圖" class="img-fluid d-block d-md-none mx-auto w-100">
     </header>
 
-    <section class="container p-lg-5 p-1 mt-5 mt-lg-0">
-        <div class="row row-cols-1 row-cols-lg-2 flex-lg-row-reverse">
+    <section class="container p-md-5 mt-5 mt-md-0">
+        <div class="row row-cols-1 row-cols-md-2 flex-md-row-reverse">
             <div class="col d-flex flex-column justify-content-center">
-                <p class="kalam-bold text-main fs-3 mb-0 text-center text-lg-start">Service</p>
-                <h1 class="kalam-bold text-main-dark fs-2 text-center text-lg-start mb-4 mb-lg-2">您出錢 我出力<br class="d-block d-lg-none"> 一起助浪浪</h1>
-                <p class="lh-lg">
+                <p class="kalam-bold text-main fs-3 mb-0 text-center text-md-start">Service</p>
+                <h1 class="kalam-bold text-main-dark fs-2 text-center text-md-start mb-4 mb-md-2">您出錢 我出力<br class="d-block d-md-none"> 一起助浪浪</h1>
+                <p class="lh-md text-nowrap">
                     我們是一群貓奴才狗奴才，<br>
                     希望能透過自己小小的力量幫助浪貓浪狗們，<br>
                     可我們沒什麼錢錢，但我們喜歡畫畫、喜愛貓狗，<br>
@@ -81,18 +67,18 @@
                     您出錢，我出力，合作無間讓浪浪有飯吃，讚啦！
                 </p>
             </div>
-            <div class="col">
-                <img src="./images/home01.png" alt="" class="img-fluid">
+            <div class="col my-auto">
+                <img src="./images/home01.png" alt="助浪浪左圖" class="img-fluid">
             </div>
         </div>
     </section>
 
     <section class="container py-5">
-        <img src="./images/title01.png" alt="" class="mx-auto d-block mb-5 img-fluid">
-        <div class="row row-cols-lg-4 row-cols-2 g-3 mb-4">
+        <img src="./images/title01.png" alt="近期作品" class="mx-auto d-block mb-5 img-fluid">
+        <div class="row row-cols-md-4 row-cols-2 g-3 mb-4">
             <div class="col">
                 <div class="card border-0 text-white">
-                    <img src="./images/dog05.png" alt="" class="img-fluid rounded-4">
+                    <img src="./images/dog05.png" alt="5號狗" class="img-fluid rounded-4">
                     <div class="card-img-overlay rounded-4 text-transparent bg-dark-gradient appear d-flex flex-column justify-content-end pb-1">
                       <p class="card-text kalam-regular mb-1">designer</p>
                       <p class="card-text kalam-bold fs-4">Meili</p>
@@ -101,7 +87,7 @@
             </div>
             <div class="col">
                 <div class="card border-0 text-white">
-                    <img src="./images/07.png" alt="" class="img-fluid rounded-4">
+                    <img src="./images/07.png" alt="7號狗" class="img-fluid rounded-4">
                     <div class="card-img-overlay rounded-4 text-transparent bg-dark-gradient appear d-flex flex-column justify-content-end pb-1">
                       <p class="card-text kalam-regular mb-1">designer</p>
                       <p class="card-text kalam-bold fs-4">Meili</p>
@@ -110,7 +96,7 @@
             </div>
             <div class="col">
                 <div class="card border-0 text-white">
-                    <img src="./images/06.png" alt="" class="img-fluid rounded-4">
+                    <img src="./images/06.png" alt="6號狗" class="img-fluid rounded-4">
                     <div class="card-img-overlay rounded-4 text-transparent bg-dark-gradient appear d-flex flex-column justify-content-end pb-1">
                       <p class="card-text kalam-regular mb-1">designer</p>
                       <p class="card-text kalam-bold fs-4">Meili</p>
@@ -119,7 +105,7 @@
             </div>
             <div class="col">
                 <div class="card border-0 text-white">
-                    <img src="./images/Michael.png" alt="" class="img-fluid rounded-4">
+                    <img src="./images/Michael.png" alt="Michael狗" class="img-fluid rounded-4">
                     <div class="card-img-overlay rounded-4 text-transparent bg-dark-gradient appear d-flex flex-column justify-content-end pb-1">
                       <p class="card-text kalam-regular mb-1">designer</p>
                       <p class="card-text kalam-bold fs-4">Meili</p>
@@ -128,22 +114,22 @@
             </div>
         </div>
         <div class="row d-flex justify-content-center">
-            <div class="col-6 col-lg-3 d-flex justify-content-center justify-content-lg-end">
-                <a href="./design.html" class="btn btn-outline-dark rounded-pill py-2 px-5 bg-transparent text-dark bg-change-main">查看更多作品</a>
+            <div class="col-6 col-md-3 d-flex justify-content-center justify-content-md-end">
+                <a href="./design.html" class="btn btn-outline-dark rounded-pill py-2 px-5 bg-transparent text-dark bg-change-main text-nowrap">查看更多作品</a>
             </div>
-            <div class="col-3 d-none d-lg-block">
-                <a href="./design_parchase.html" class="btn btn-outline-main rounded-pill py-2 px-5 bg-main text-dark">客製毛孩似顏繪</a>
+            <div class="col-3 d-none d-md-block">
+                <a href="./design_parchase.html" class="btn btn-outline-main rounded-pill py-2 px-5 bg-main text-dark text-nowrap">客製毛孩似顏繪</a>
             </div>
         </div>
     </section>
 
     <section class="container mb-5">
-        <img src="./images/title02.png" alt="" class="img-fluid mx-auto d-block mb-3">
+        <img src="./images/title02.png" alt="領養專區" class="img-fluid mx-auto d-block mb-3">
         <p class="text-center mb-5">這裡是在還在等家的浪浪們，若您正巧在找個家人，不訪來認識一下唄</p>
-        <div class="row mb-4 d-flex justify-content-center row-cols-1 row-cols-lg-3 gy-3">
+        <div class="row mb-4 d-flex justify-content-center row-cols-1 row-cols-md-3 gy-3">
             <div class="col">
                 <div class="card rounded-4 h-100 shadow">
-                    <img src="./images/dog01.png" class="card-img-top img-fluid pb-3" alt="...">
+                    <img src="./images/dog01.png" class="card-img-top img-fluid pb-3" alt="1號狗">
                     <div class="card-body">
                       <h5 class="card-title fw-bold pb-3">等家中-華仔</h5>
                       <p class="card-text pb-3">目前7個月大的華仔，是個愛笑的貪吃鬼，喜歡吃西瓜還有蓮霧，是一隻吃素的乖狗狗，會挑食不喜歡...</p>
@@ -152,7 +138,8 @@
                       </p>
                     </div>
                     <div class="card-img-overlay p-0 d-flex flex-column justify-content-between appear">
-                        <img src="./images/dog01-hover-1.png" alt="" class="card-img-top m-0">
+                        <img src="./images/dog01-hover-1.png" alt="1號狗hover" class="card-img-top m-0">
+                        <a href="./adoption_waithome.html" class="stretched-link"></a>
                         <p class="bg-transparent text-center kalam-bold text-main">
                             MORE</p>
                     </div>
@@ -160,7 +147,7 @@
             </div>
             <div class="col">
                 <div class="card rounded-4 h-100 shadow">
-                    <img src="./images/04.png" class="card-img-top img-fluid pb-3" alt="...">
+                    <img src="./images/04.png" class="card-img-top img-fluid pb-3" alt="4號狗">
                     <div class="card-body">
                       <h5 class="card-title fw-bold pb-3">等家中-小呆</h5>
                       <p class="card-text pb-3">小呆有著圓圓的大眼睛，一歲的他來自台中，原本陪著一位老奶奶生活，上個月奶奶行動不便不能再陪...</p>
@@ -169,7 +156,8 @@
                       </p>
                     </div>
                     <div class="card-img-overlay p-0 d-flex flex-column justify-content-between appear">
-                        <img src="./images/dog01-hover.png" alt="" class="card-img-top m-0">
+                        <img src="./images/dog01-hover.png" alt="1號狗hover" class="card-img-top m-0">
+                        <a href="./adoption_waithome.html" class="stretched-link"></a>
                         <p class="bg-transparent text-center kalam-bold text-main">
                             MORE</p>
                     </div>
@@ -177,7 +165,7 @@
             </div>
             <div class="col">
                 <div class="card rounded-4 h-100 shadow">
-                    <img src="./images/08.png" class="card-img-top img-fluid pb-3" alt="...">
+                    <img src="./images/08.png" class="card-img-top img-fluid pb-3" alt="8號狗">
                     <div class="card-body">
                       <h5 class="card-title fw-bold pb-3">等家中-Snow</h5>
                       <p class="card-text pb-3">看起來很兇但特別怕打雷的Snow，很喜歡吃冰，冰冰的水也喜歡，如果摸他的額頭會發出吹口哨的聲...</p>
@@ -186,7 +174,8 @@
                       </p>
                     </div>
                     <div class="card-img-overlay p-0 d-flex flex-column justify-content-between appear">
-                        <img src="./images/dog01-hover-2.png" alt="" class="card-img-top m-0">
+                        <img src="./images/dog01-hover-2.png" alt="1號狗hover-2" class="card-img-top m-0">
+                        <a href="./adoption_waithome.html" class="stretched-link"></a>
                         <p class="bg-transparent text-center kalam-bold text-main">
                             MORE</p>
                     </div>
@@ -200,13 +189,13 @@
     </section>
 
     <section class="border-top border-main p-5 border-2 bg-white">
-        <div class="row row-cols-lg-2 row-cols-1 g-5">
+        <div class="row row-cols-md-2 row-cols-1 g-5">
             <div class="col">
-                <div class="row row-cols-lg-2 row-cols-1 text-center g-1">
-                    <div class="col mb-4 mb-lg-0">
-                        <img src="./images/link01.png" alt="">
+                <div class="row row-cols-md-2 row-cols-1 text-center g-1">
+                    <div class="col mb-4 mb-md-0">
+                        <img class="img-fluid" src="./images/link01.png" alt="握手底圖">
                     </div>
-                    <div class="col text-lg-start">
+                    <div class="col text-md-start">
                         <p class="h4">加入奴才團隊</p>
                         <p>我也會畫畫，希望能盡一份心力！</p>
                         <a href="./design_parchase.html" class="btn btn-outline-dark rounded-pill py-2 bg-transparent text-dark bg-change-main" style="width: 176px;">聯絡我們</a>
@@ -214,11 +203,11 @@
                 </div>
             </div>
             <div class="col">
-                <div class="row row-cols-lg-2 row-cols-1 text-center g-1">
-                    <div class="col mb-4 mb-lg-0">
-                        <img src="./images/link02.png" alt="">
+                <div class="row row-cols-md-2 row-cols-1 text-center g-1">
+                    <div class="col mb-4 mb-md-0">
+                        <img class="img-fluid" src="./images/link02.png" alt="摸狗底圖">
                     </div>
-                    <div class="col text-lg-start">
+                    <div class="col text-md-start">
                         <p class="h4">加入奴才團隊</p>
                         <p>我也會畫畫，希望能盡一份心力！</p>
                         <a href="./adoption.html" class="btn btn-outline-dark rounded-pill py-2 bg-transparent text-dark bg-change-main" style="width: 176px;">領養專區</a>

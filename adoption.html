@@ -4,52 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./stylesheets/all.css">
-
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Noto+Sans:ital@0;1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: "Noto Sans", sans-serif;
-        }
-        .kalam-bold {
-            font-family: "Kalam", cursive;
-            font-weight: 700;
-            font-style: normal;
-        }
-        .kalam-regular {
-            font-family: "Kalam", cursive;
-            font-weight: 400;
-            font-style: normal;
-        }
-    </style>
+    <link rel="stylesheet" href="./stylesheets/all.css">
 </head>
-<body style="background-image: url(./images/lightpaperfibers.png);">
-    <nav class="navbar navbar-expand-lg navbar-light bg-white nav-line sticky-top">
+<body class="background-image">
+    <nav class="navbar navbar-expand-md navbar-light bg-white nav-line sticky-top text-nowrap">
       <div class="container">
         <a class="navbar-brand" href="./index.html">
-          <img src="./images/logo.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <img src="./images/logo.png" alt="logo"><h1 class="d-none">撿到寶</h1></a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item mx-3">
+          <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+            <li class="nav-item mx-2">
               <a class="nav-link text-change-main text-main-dark" aria-current="page" href="./index.html">首頁</a>
             </li>
-            <li class="nav-item mx-3">
+            <li class="nav-item mx-2">
               <a class="nav-link text-change-main text-main-dark" href="./service.html">服務介紹</a>
             </li>
-            <li class="nav-item mx-3">
+            <li class="nav-item mx-2">
               <a class="nav-link text-change-main text-main-dark" href="./design.html">設計作品</a>
             </li>
-            <li class="nav-item mx-3">
+            <li class="nav-item mx-2">
               <a class="nav-link text-change-main text-main" href="./adoption.html">領養專區</a>
             </li>
-            <li class="nav-item ps-3">
+            <li class="nav-item ps-2">
               <a class="btn btn-main rounded-pill text-main-dark px-5 bg-shadow" href="./design_parchase.html">毛孩似顏繪</a>
             </li>
           </ul>
@@ -57,12 +42,12 @@
       </div>
     </nav>
 
-    <section>
-        <img src="./images/title02.png" alt="" class="mx-auto d-block mb-3 py-4">
-        <div class="row row-cols-lg-3 row-cols-1 gy-3 mb-5 px-lg-5 px-3">
+    <section class="container container-fluid">
+        <img src="./images/title02.png" alt="領養專區" class="mx-auto d-block mb-3 py-4">
+        <div class="row row-cols-md-3 row-cols-1 gy-3 mb-5">
           <div class="col">
             <div class="card rounded-4 h-100 shadow">
-                <img src="./images/dog01.png" class="card-img-top img-fluid pb-3" alt="...">
+                <img src="./images/dog01.png" class="card-img-top img-fluid pb-3" alt="1號狗">
                 <div class="card-body">
                   <h5 class="card-title fw-bold pb-3">等家中-華仔</h5>
                   <p class="card-text pb-3">目前7個月大的華仔，是個愛笑的貪吃鬼，喜歡吃西瓜還有蓮霧，是一隻吃素的乖狗狗，會挑食不喜歡...</p>
@@ -71,7 +56,8 @@
                   </p>
                 </div>
                 <div class="card-img-overlay p-0 d-flex flex-column justify-content-between appear">
-                    <img src="./images/dog01-hover-1.png" alt="" class="card-img-top m-0">
+                    <img src="./images/dog01-hover-1.png" alt="1號狗hover-1" class="card-img-top m-0">
+                    <a href="./adoption_waithome.html" class="stretched-link"></a>
                     <p class="bg-transparent text-center kalam-bold text-main">
                         MORE</p>
                 </div>
@@ -79,7 +65,7 @@
           </div>
           <div class="col">
               <div class="card rounded-4 h-100 shadow">
-                  <img src="./images/04.png" class="card-img-top img-fluid pb-3" alt="...">
+                  <img src="./images/04.png" class="card-img-top img-fluid pb-3" alt="4號狗">
                   <div class="card-body">
                     <h5 class="card-title fw-bold pb-3">等家中-小呆</h5>
                     <p class="card-text pb-3">小呆有著圓圓的大眼睛，一歲的他來自台中，原本陪著一位老奶奶生活，上個月奶奶行動不便不能再陪...</p>
@@ -88,7 +74,8 @@
                     </p>
                   </div>
                   <div class="card-img-overlay p-0 d-flex flex-column justify-content-between appear">
-                      <img src="./images/dog01-hover.png" alt="" class="card-img-top m-0">
+                      <img src="./images/dog01-hover.png" alt="1號狗hover" class="card-img-top m-0">
+                      <a href="./adoption_waithome.html" class="stretched-link"></a>
                       <p class="bg-transparent text-center kalam-bold text-main">
                           MORE</p>
                   </div>
@@ -96,7 +83,7 @@
           </div>
           <div class="col">
               <div class="card rounded-4 h-100 shadow">
-                  <img src="./images/08.png" class="card-img-top img-fluid pb-3" alt="...">
+                  <img src="./images/08.png" class="card-img-top img-fluid pb-3" alt="8號狗">
                   <div class="card-body">
                     <h5 class="card-title fw-bold pb-3">等家中-Snow</h5>
                     <p class="card-text pb-3">看起來很兇但特別怕打雷的Snow，很喜歡吃冰，冰冰的水也喜歡，如果摸他的額頭會發出吹口哨的聲...</p>
@@ -105,7 +92,8 @@
                     </p>
                   </div>
                   <div class="card-img-overlay p-0 d-flex flex-column justify-content-between appear">
-                      <img src="./images/dog01-hover-2.png" alt="" class="card-img-top m-0">
+                      <img src="./images/dog01-hover-2.png" alt="1號狗hover-2" class="card-img-top m-0">
+                      <a href="./adoption_waithome.html" class="stretched-link"></a>
                       <p class="bg-transparent text-center kalam-bold text-main">
                           MORE</p>
                   </div>
@@ -113,7 +101,7 @@
           </div>
           <div class="col">
             <div class="card rounded-4 h-100 shadow">
-                <img src="./images/06.png" class="card-img-top img-fluid pb-3" alt="...">
+                <img src="./images/06.png" class="card-img-top img-fluid pb-3" alt="6號狗">
                 <div class="card-body">
                   <h5 class="card-title fw-bold pb-3">等家中-華仔</h5>
                   <p class="card-text pb-3">目前7個月大的華仔，是個愛笑的貪吃鬼，喜歡吃西瓜還有蓮霧，是一隻吃素的乖狗狗，會挑食不喜歡...</p>
@@ -122,7 +110,8 @@
                   </p>
                 </div>
                 <div class="card-img-overlay p-0 d-flex flex-column justify-content-between appear">
-                    <img src="./images/dog01-hover-1.png" alt="" class="card-img-top m-0">
+                    <img src="./images/dog01-hover-1.png" alt="1號狗hover-1" class="card-img-top m-0">
+                    <a href="./adoption_waithome.html" class="stretched-link"></a>
                     <p class="bg-transparent text-center kalam-bold text-main">
                         MORE</p>
                 </div>
@@ -130,7 +119,7 @@
           </div>
           <div class="col">
               <div class="card rounded-4 h-100 shadow">
-                  <img src="./images/07.png" class="card-img-top img-fluid pb-3" alt="...">
+                  <img src="./images/07.png" class="card-img-top img-fluid pb-3" alt="7號狗">
                   <div class="card-body">
                     <h5 class="card-title fw-bold pb-3">等家中-小呆</h5>
                     <p class="card-text pb-3">小呆有著圓圓的大眼睛，一歲的他來自台中，原本陪著一位老奶奶生活，上個月奶奶行動不便不能再陪...</p>
@@ -139,7 +128,8 @@
                     </p>
                   </div>
                   <div class="card-img-overlay p-0 d-flex flex-column justify-content-between appear">
-                      <img src="./images/dog01-hover.png" alt="" class="card-img-top m-0">
+                      <img src="./images/dog01-hover.png" alt="1號狗hover" class="card-img-top m-0">
+                      <a href="./adoption_waithome.html" class="stretched-link"></a>
                       <p class="bg-transparent text-center kalam-bold text-main">
                           MORE</p>
                   </div>
@@ -147,7 +137,7 @@
           </div>
           <div class="col">
               <div class="card rounded-4 h-100 shadow">
-                  <img src="./images/05.png" class="card-img-top img-fluid pb-3" alt="...">
+                  <img src="./images/05.png" class="card-img-top img-fluid pb-3" alt="5號狗">
                   <div class="card-body">
                     <h5 class="card-title fw-bold pb-3">等家中-Snow</h5>
                     <p class="card-text pb-3">看起來很兇但特別怕打雷的Snow，很喜歡吃冰，冰冰的水也喜歡，如果摸他的額頭會發出吹口哨的聲...</p>
@@ -156,7 +146,8 @@
                     </p>
                   </div>
                   <div class="card-img-overlay p-0 d-flex flex-column justify-content-between appear">
-                      <img src="./images/dog01-hover-2.png" alt="" class="card-img-top m-0">
+                      <img src="./images/dog01-hover-2.png" alt="1號狗hover-2" class="card-img-top m-0">
+                      <a href="./adoption_waithome.html" class="stretched-link"></a>
                       <p class="bg-transparent text-center kalam-bold text-main">
                           MORE</p>
                   </div>
@@ -185,13 +176,13 @@
     </section>
 
     <section class="border-top border-main p-5 border-2 bg-white">
-      <div class="row row-cols-lg-2 row-cols-1 g-5">
+      <div class="row row-cols-md-2 row-cols-1 g-5">
           <div class="col">
-              <div class="row row-cols-lg-2 row-cols-1 text-center g-1">
-                  <div class="col mb-4 mb-lg-0">
-                      <img src="./images/link01.png" alt="">
+              <div class="row row-cols-md-2 row-cols-1 text-center g-1">
+                  <div class="col mb-4 mb-md-0">
+                      <img class="img-fluid" src="./images/link01.png" alt="握手底圖">
                   </div>
-                  <div class="col text-lg-start">
+                  <div class="col text-md-start">
                       <p class="h4">加入奴才團隊</p>
                       <p>我也會畫畫，希望能盡一份心力！</p>
                       <a href="./design_parchase.html" class="btn btn-outline-dark rounded-pill py-2 bg-transparent text-dark bg-change-main" style="width: 176px;">聯絡我們</a>
@@ -199,11 +190,11 @@
               </div>
           </div>
           <div class="col">
-              <div class="row row-cols-lg-2 row-cols-1 text-center g-1">
-                  <div class="col mb-4 mb-lg-0">
-                      <img src="./images/link02.png" alt="">
+              <div class="row row-cols-md-2 row-cols-1 text-center g-1">
+                  <div class="col mb-4 mb-md-0">
+                      <img class="img-fluid" src="./images/link02.png" alt="摸狗底圖">
                   </div>
-                  <div class="col text-lg-start">
+                  <div class="col text-md-start">
                       <p class="h4">加入奴才團隊</p>
                       <p>我也會畫畫，希望能盡一份心力！</p>
                       <a href="./adoption.html" class="btn btn-outline-dark rounded-pill py-2 bg-transparent text-dark bg-change-main" style="width: 176px;">領養專區</a>

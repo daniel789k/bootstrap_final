@@ -4,52 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./stylesheets/all.css">
-
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Noto+Sans:ital@0;1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: "Noto Sans", sans-serif;
-        }
-        .kalam-bold {
-            font-family: "Kalam", cursive;
-            font-weight: 700;
-            font-style: normal;
-        }
-        .kalam-regular {
-            font-family: "Kalam", cursive;
-            font-weight: 400;
-            font-style: normal;
-        }
-    </style>
+    <link rel="stylesheet" href="./stylesheets/all.css">
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white nav-line sticky-top">
+<body class="background-image">
+    <nav class="navbar navbar-expand-md navbar-light bg-white nav-line sticky-top text-nowrap">
         <div class="container">
           <a class="navbar-brand" href="./index.html">
-            <img src="./images/logo.png" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="./images/logo.png" alt="logo"><h1 class="d-none">撿到寶</h1></a>
+          <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item mx-3">
+            <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+              <li class="nav-item mx-2">
                 <a class="nav-link text-change-main text-main-dark" aria-current="page" href="./index.html">首頁</a>
               </li>
-              <li class="nav-item mx-3">
+              <li class="nav-item mx-2">
                 <a class="nav-link text-change-main text-main" href="./service.html">服務介紹</a>
               </li>
-              <li class="nav-item mx-3">
+              <li class="nav-item mx-2">
                 <a class="nav-link text-change-main text-main-dark" href="./design.html">設計作品</a>
               </li>
-              <li class="nav-item mx-3">
+              <li class="nav-item mx-2">
                 <a class="nav-link text-change-main text-main-dark" href="./adoption.html">領養專區</a>
               </li>
-              <li class="nav-item ps-3">
+              <li class="nav-item ps-2">
                 <a class="btn btn-main rounded-pill text-main-dark px-5 bg-shadow" href="./design_parchase.html">毛孩似顏繪</a>
               </li>
             </ul>
@@ -58,55 +43,55 @@
     </nav>
 
     <header class="header mb-5">
-        <img src="./images/banner.png" alt="" class="img-fluid d-none d-lg-block">
-        <img src="./images/banner_service-sm.png" alt="" class="img-fluid d-block d-lg-none mx-auto">
+        <img src="./images/banner.png" alt="似顏繪大圖" class="img-fluid d-none d-md-block">
+        <img src="./images/banner_service-sm.png" alt="手機板似顏繪大圖" class="img-fluid d-block d-md-none mx-auto">
     </header>
 
-    <section class="mb-5 px-lg-5 px-4">
-        <div class="row row-cols-1 row-cols-lg-4">
-            <div class="col d-flex flex-row flex-lg-column align-items-center">
-                <img src="./images/step01.png" alt="" class="mb-3 img-fluid h-50">
-                <div class="d-flex flex-column align-items-center text-lg-center ms-4 ms-lg-0">
-                    <p class="kalam-bold text-main fs-5 me-auto mx-lg-auto">STEP1</p>
-                    <h2 class="fw-bold fs-5 mb-3 me-auto mx-lg-auto">購買似顏繪服務</h2>
-                    <p class="me-auto mx-lg-auto">填寫購買表單<br>並完成轉帳付款</p>
+    <section class="mb-5 px-md-5 px-4">
+        <div class="row row-cols-1 row-cols-md-4">
+            <div class="col d-flex flex-row flex-md-column align-items-center justify-content-center">
+                <img src="./images/step01.png" alt="步驟一" class="mb-3 img-fluid">
+                <div class="d-flex flex-column align-items-center text-md-center ms-4 ms-md-0">
+                    <p class="kalam-bold text-main fs-5 me-auto mx-md-auto">STEP1</p>
+                    <h2 class="fw-bold fs-5 mb-3 me-auto mx-md-auto">購買似顏繪服務</h2>
+                    <p class="me-auto mx-md-auto">填寫購買表單<br>並完成轉帳付款</p>
                 </div>
             </div>
-            <div class="col d-flex flex-row flex-lg-column align-items-center">
-                <img src="./images/step02.png" alt="" class="mb-3 img-fluid h-50">
-                <div class="d-flex flex-column align-items-center text-lg-center ms-4 ms-lg-0">
-                    <p class="kalam-bold text-main fs-5 me-auto mx-lg-auto">STEP2</p>
-                    <h2 class="fw-bold fs-5 mb-3 me-auto mx-lg-auto">設計師繪製</h2>
-                    <p class="me-auto mx-lg-auto">設計師繪製似顏繪<br>不提供改稿</p>
+            <div class="col d-flex flex-row flex-md-column align-items-center justify-content-center">
+                <img src="./images/step02.png" alt="步驟二" class="mb-3 img-fluid">
+                <div class="d-flex flex-column align-items-center text-md-center ms-4 ms-md-0">
+                    <p class="kalam-bold text-main fs-5 me-auto mx-md-auto">STEP2</p>
+                    <h2 class="fw-bold fs-5 mb-3 me-auto mx-md-auto">設計師繪製</h2>
+                    <p class="me-auto mx-md-auto">設計師繪製似顏繪<br>不提供改稿</p>
                 </div>
             </div>
-            <div class="col d-flex flex-row flex-lg-column align-items-center">
-                <img src="./images/step04.png" alt="" class="mb-3 img-fluid h-50">
-                <div class="d-flex flex-column align-items-center text-lg-center ms-4 ms-lg-0">
-                    <p class="kalam-bold text-main fs-5 me-auto mx-lg-auto">STEP3</p>
-                    <h2 class="fw-bold fs-5 mb-3 me-auto mx-lg-auto">畫作提供</h2>
-                    <p class="me-auto mx-lg-auto">電子檔案or實體化做寄送<br>設計師提供作品</p>
+            <div class="col d-flex flex-row flex-md-column align-items-center justify-content-center">
+                <img src="./images/step04.png" alt="步驟四" class="mb-3 img-fluid">
+                <div class="d-flex flex-column align-items-center text-md-center ms-4 ms-md-0">
+                    <p class="kalam-bold text-main fs-5 me-auto mx-md-auto">STEP3</p>
+                    <h2 class="fw-bold fs-5 mb-3 me-auto mx-md-auto">畫作提供</h2>
+                    <p class="me-auto mx-md-auto text-nowrap">電子檔案or實體化做寄送<br>設計師提供作品</p>
                 </div>
             </div>
-            <div class="col d-flex flex-row flex-lg-column align-items-center">
-                <img src="./images/step03.png" alt="" class="mb-3 img-fluid h-50">
-                <div class="d-flex flex-column align-items-center text-lg-center ms-4 ms-lg-0">
-                    <p class="kalam-bold text-main fs-5 me-auto mx-lg-auto">STEP4</p>
-                    <h2 class="fw-bold fs-5 mb-3 me-auto mx-lg-auto">幫助浪浪</h2>
-                    <p class="me-auto mx-lg-auto">每個月30號我們會將設計費<br>購買飼料，提供給xxx中途之家</p>
+            <div class="col d-flex flex-row flex-md-column align-items-center justify-content-center">
+                <img src="./images/step03.png" alt="步驟三" class="mb-3 img-fluid">
+                <div class="d-flex flex-column align-items-center text-md-center ms-4 ms-md-0">
+                    <p class="kalam-bold text-main fs-5 me-auto mx-md-auto">STEP4</p>
+                    <h2 class="fw-bold fs-5 mb-3 me-auto mx-md-auto">幫助浪浪</h2>
+                    <p class="me-auto mx-md-auto text-nowrap">每個月30號我們會將設計費<br>購買飼料，提供給xxx中途之家</p>
                 </div>
             </div>
         </div>
     </section>
 
     <section class="border-top border-main p-5 border-2 bg-white">
-        <div class="row row-cols-lg-2 row-cols-1 g-5">
+        <div class="row row-cols-md-2 row-cols-1 g-5">
             <div class="col">
-                <div class="row row-cols-lg-2 row-cols-1 text-center g-1">
-                    <div class="col mb-4 mb-lg-0">
-                        <img src="./images/link01.png" alt="">
+                <div class="row row-cols-md-2 row-cols-1 text-center g-1">
+                    <div class="col mb-4 mb-md-0">
+                        <img class="img-fluid" src="./images/link01.png" alt="握手底圖">
                     </div>
-                    <div class="col text-lg-start">
+                    <div class="col text-md-start">
                         <p class="h4">加入奴才團隊</p>
                         <p>我也會畫畫，希望能盡一份心力！</p>
                         <a href="./design_parchase.html" class="btn btn-outline-dark rounded-pill py-2 bg-transparent text-dark bg-change-main" style="width: 176px;">聯絡我們</a>
@@ -114,11 +99,11 @@
                 </div>
             </div>
             <div class="col">
-                <div class="row row-cols-lg-2 row-cols-1 text-center g-1">
-                    <div class="col mb-4 mb-lg-0">
-                        <img src="./images/link02.png" alt="">
+                <div class="row row-cols-md-2 row-cols-1 text-center g-1">
+                    <div class="col mb-4 mb-md-0">
+                        <img class="img-fluid" src="./images/link02.png" alt="摸狗底圖">
                     </div>
-                    <div class="col text-lg-start">
+                    <div class="col text-md-start">
                         <p class="h4">加入奴才團隊</p>
                         <p>我也會畫畫，希望能盡一份心力！</p>
                         <a href="./adoption.html" class="btn btn-outline-dark rounded-pill py-2 bg-transparent text-dark bg-change-main" style="width: 176px;">領養專區</a>

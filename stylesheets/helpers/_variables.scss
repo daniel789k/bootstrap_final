@@ -1751,3 +1751,18 @@ $nested-kbd-font-weight:            null !default; // Deprecated in v5.2.0, remo
 $pre-color:                         null !default;
 
 // @import "variables-dark"; // TODO: can be removed safely in v6, only here to avoid breaking changes in v5.3
+
+.kalam-bold {
+  font-family: "Kalam", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+.kalam-regular {
+  font-family: "Kalam", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+}
